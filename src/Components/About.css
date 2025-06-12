@@ -1,0 +1,38 @@
+.logo-slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-slider-box {
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 12px 0;
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo-slider-track {
+  display: flex;
+  animation: scroll 25s linear infinite;
+  gap: 40px;
+}
+
+.logo-img {
+  width: 80px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Ensure animation scrolls continuously */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

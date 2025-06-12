@@ -8,12 +8,14 @@ import tsIcon from '../Assets/ts.png';
 import waIcon from '../Assets/wa.png';
 
 const logos = [
+  
   '/logos/logo1.svg',
   '/logos/logo2.svg',
   '/logos/logo3.svg',
   '/logos/logo4.svg',
   '/logos/logo5.svg',
 ];
+
 
 const icons = [
   { src: cssIcon, alt: 'UI&UX', glow: 'blue' },
@@ -81,8 +83,8 @@ function Designing() {
               <h2> What we Design <br></br> Great Design Build Better Get Success</h2>
               <p>we at motowetech define client real need to get access to digital world</p>
               <button> Tools We Use</button>
-              <div class="section-row">
-        <div class="action-box">
+              <div className="section-row">
+        <div className="action-box">
         <div className="icon-grid">
                 <div className="icon-item"><div className="design-icon-box"><FaPaintBrush /></div><p>Design</p></div>
                 <div className="icon-item"><div className="design-icon-box"><FaCode /></div><p>Development</p></div>
@@ -90,10 +92,10 @@ function Designing() {
                 <div className="icon-item"><div className="design-icon-box"><FaMobileAlt /></div><p>Mobile</p></div>
               </div>
         </div>
-        <div class="section-box2">Section 2
+        <div className="section-box2">Section 2
           <Button>Get Now</Button>
         </div>
-        <div class="action-box">
+        <div className="action-box">
         <div className="icon-grid">
                 <div className="icon-item"><div className="design-icon-box"><FaPaintBrush /></div><p>Design</p></div>
                 <div className="icon-item"><div className="design-icon-box"><FaCode /></div><p>Development</p></div>
