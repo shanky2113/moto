@@ -1,0 +1,180 @@
+/* Slider.css */
+.slider-wrapper {
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .slider-container {
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: space-between;
+    background: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .slider-left {
+    flex: 1;
+    padding-right: 30px;
+    margin-left: 50px;
+    display: flex;               /* ✅ add this */
+    flex-direction: column; 
+  }
+  
+  .slider-left h2 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    color:#0052aa;
+    text-align: left;
+
+
+  }
+  
+  .slider-left p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #1d1d1d;
+  }
+
+  .icon {
+    margin-bottom: 10px;
+    color: #1d1d1d;
+  }
+
+  .slide-button {
+    margin-top: 20px !important;
+    align-self: flex-start; /* Keeps the button aligned with left content */
+  }
+  
+  
+  .slider-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slider-right img {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+
+  .slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* or 'cover' depending on what you want */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  
+  /* Buttons at bottom center */
+  .slider-wrapper {
+    position: relative;
+  }
+  
+  .slider-bullets {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+  }
+  
+  
+  .bullet {
+    width: 12px;
+    height: 12px;
+    margin: 0 6px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .bullet.active {
+    background-color: #007bff;
+  }
+  
+  /* Responsive styles */
+@media (max-width: 768px) {
+    .slider-container {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .slider-left {
+      margin-left: 0;
+      padding: 0;
+      text-align: center;
+    }
+  
+    .slider-left h2 {
+      font-size: 28px;
+    }
+  
+    .slider-left p {
+      font-size: 16px;
+    }
+
+    .icon {
+        align-self: center; /* works because .slider-left is a flex column */
+        text-align: center;
+      }
+      
+    .slide-button {
+        align-self: center !important;
+      }
+  
+    .slider-right {
+      margin-top: 20px;
+    }
+  
+    .slider-right img {
+      width: 80%;
+    }
+  
+    .slider-image {
+      object-fit: contain;
+      width: 100%;
+      height: auto;
+    }
+  
+    .slider-bullets {
+      bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .slider-left h2 {
+      font-size: 22px;
+    }
+  
+    .slider-left p {
+      font-size: 14px;
+    }
+  
+    .slider-right img {
+      width: 100%;
+    }
+  
+    .bullet {
+      width: 10px;
+      height: 10px;
+      margin: 0 4px;
+    }
+  }
+  
+  

@@ -1,0 +1,427 @@
+.hero-designing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* vertically center content */
+    align-items: center;      /* horizontally center content */
+    width: 100%;
+    height: 80vh;            /* full screen height */
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;       
+}
+
+
+/* New wrapper to keep left and right side-by-side */
+.hero-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Wraps on smaller screens */
+    width: 100%;
+    gap: 20px;
+}
+
+.hero-left {
+    width: 45%;
+    height: auto;
+    color: #1d1d1d;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    overflow: hidden;
+    text-align: left;
+}
+
+.hero-left h1 {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.con {
+    font-weight: 700;
+    color: #0052aa;
+}
+
+.hero-button {
+    padding: 12px 50px;
+    background: linear-gradient(135deg, #1d1d1d, #464646);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.hero-button:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #0052aa, #003f7a);
+}
+
+.hero-left h2 {
+    color: #1d1d1d;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.hero-right {
+    width: 45%;
+    padding: 0;
+    border-radius: 10px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    color: #1d1d1d;
+}
+
+.icon-layout {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-row {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+
+.icon-row.single {
+    justify-content: center;
+}
+
+.icon-circle {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #60aaff, #0052aa);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.icon-circle:hover {
+    transform: scale(1.1);
+}
+
+/* New section for About logo slider */
+.hero-bottom-center {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: -10px;
+}
+
+.about-heading {
+    color: #1d1d1d;
+    font-size: 15px;
+
+}
+
+.logo-slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.logo-slider-box {
+  width: 400px;
+  overflow: hidden;
+  background-color: #f8f9fa;
+  border-radius: 20px;
+  padding: 12px 0;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo-slider-track {
+  display: flex;
+  width: fit-content;
+  animation: scroll 15s linear infinite;
+  gap: 24px;
+}
+
+.logo-img {
+  width: 50px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Icons section css */
+.designing-icons {
+    height: 80vh; /* Allow height to fit content */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 20px; /* Adds consistent spacing between elements */
+}
+
+.designing-icons h2 {
+    text-align: center;
+    color: #1d1d1d;
+    font-size: 40px;
+    margin: 0; /* Removes excess vertical spacing */
+    padding: 0; /* Avoids unintended spacing */
+}
+
+ /* tech-icons-section logos css */
+
+.tech-icons-section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px 60px;
+  border-radius: 12px;
+  margin: 0;
+  /* background-color: #0052aa; */
+}
+
+.icon-box {
+  width: 100px;
+  height: 100px;
+  background: #1e1e1e;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.icon-box img {
+  width: 70%;
+  height: auto;
+}
+
+
+.icon-label {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+
+/* Glowing color variants */
+.glow-blue:hover {
+  box-shadow: 0 0 20px 6px #2196f3;
+  transform: scale(1.1);
+}
+.glow-yellow:hover {
+  box-shadow: 0 0 20px 6px #ffeb3b;
+  transform: scale(1.1);
+}
+.glow-cyan:hover {
+  box-shadow: 0 0 20px 6px #00bcd4;
+  transform: scale(1.1);
+}
+.glow-purple:hover {
+  box-shadow: 0 0 20px 6px #9c27b0;
+  transform: scale(1.1);
+}
+.glow-red:hover {
+  box-shadow: 0 0 20px 6px #c72828;
+  transform: scale(1.1);
+}
+
+
+/* **** Secound section graphics with logo ***** */
+
+
+.why-us {
+  width: 100%;
+  min-height: 100vh;
+  padding: 60px 20px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.why-us h2 {
+  font-size: 35px;
+  color: #1d1d1d;
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.why-us p {
+  font-size: 18px;
+  color: #555;
+  max-width: 700px;
+  margin-bottom: 30px;
+}
+
+.why-us button {
+  background: linear-gradient(135deg, #0052AA);
+  color: white;
+  padding: 12px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.why-us button:hover {
+  background: linear-gradient(135deg, #1b79fd, #022e5a);
+  transform: scale(1.05);
+}
+
+/* Section Layout */
+.section-row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Shared Box Styles */
+.action-box {
+  flex: 1;
+  min-width: auto;
+  background-color: #ffffff;
+  padding: 20px 15px;
+  padding-top: 50PX;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+.section-box2 {
+  display: flex;
+  flex: 1;
+  margin: auto;
+  padding: 10px 20px;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-box:hover, .section-box2:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+
+/* Bootstrap Button inside */
+.section-box2 button {
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 10px 24px;
+  background: #e0bf04;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  transition: background 0.3s ease;
+}
+
+.section-box2 button:hover {
+  background: #0056b3;
+}
+
+/* Icon Grid */
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  
+  
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 32px;
+  color: #0052aa;
+  transition: transform 0.3s ease;
+  justify-content: center;
+}
+
+.icon-item:hover {
+  transform: scale(1.1);
+  color: #007bff;
+}
+
+.icon-item p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #444;
+  font-weight: 500;
+}
+
+.design-icon-box {
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  border: 2px solid #007bff00;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: #0052aa;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+  margin: auto;
+}
+
+.design-icon-box:hover {
+  background-color: #007bff;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+
+
+/* Optional: Responsive tweaks */
+@media screen and (max-width: 768px) {
+    .hero-left, .hero-right {
+        width: 90%;
+        text-align: center;
+    }
+
+    .hero-left h1 {
+        font-size: 32px;
+    }
+
+    .icon-row {
+        gap: 30px;
+    }
+}
+
+/* Animation logo */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
