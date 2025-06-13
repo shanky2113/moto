@@ -6,14 +6,13 @@ import cssIcon from '../Assets/css.png';
 import jsIcon from '../Assets/javascript.png';
 import tsIcon from '../Assets/ts.png';
 import waIcon from '../Assets/wa.png';
+import logo1 from '../Assets/logos/logo1.svg';
+import logo2 from '../Assets/logos/logo2.svg';
+import logo3 from '../Assets/logos/logo3.svg';
+import logo4 from '../Assets/logos/logo4.svg';
+import logo5 from '../Assets/logos/logo5.svg';
 
-const logos = [
-  '/logos/logo1.svg',
-  '/logos/logo2.svg',
-  '/logos/logo3.svg',
-  '/logos/logo4.svg',
-  '/logos/logo5.svg',
-];
+const logos = [logo1, logo2, logo3, logo4, logo5];
 
 const icons = [
   { src: cssIcon, alt: 'UI&UX', glow: 'blue' },
