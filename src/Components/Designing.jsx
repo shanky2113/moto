@@ -51,7 +51,7 @@ function Designing() {
 
         {/* ⬇️ This is centered below the two columns */}
         <div className="hero-bottom-center">
-          <h2 className="about-heading">Our Trusted Partners</h2>
+          <h2 className="logo-heading">Our Trusted Partners</h2>
           <div className="logo-slider-container">
             <div className="logo-slider-box">
               <div className="logo-slider-track">

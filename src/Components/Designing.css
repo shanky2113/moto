@@ -121,7 +121,7 @@
     margin: -10px;
 }
 
-.about-heading {
+.logo-heading {
     color: #1d1d1d;
     font-size: 15px;
 
@@ -412,7 +412,7 @@
     }
 
     .icon-row {
-        gap: 30px;
+        gap: 90px;
     }
 }
 
@@ -505,6 +505,12 @@
 
   .logo-slider-box {
     width: 90%;
+  }
+
+  .logo-heading {
+    color: #1d1d1d;
+    font-size: 15px;
+    margin-top: 20px;
   }
 
   .section-box2 {
