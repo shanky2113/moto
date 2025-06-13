@@ -54,32 +54,6 @@
 }
 
 
-
-
-.animated {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px; /* spacing between boxes */
-    height: 30vh;
-  }
-  
-  .bx{
-    margin: auto;
-    padding: 1em;
-    height: 100px;
-    width: 200px;
-    background: #1d1d1d;
-    text-align: center;
-    border-radius: 10px;
-    position: relative;
-    color: #ffffff;
-    justify-content: center;
-    align-items: center;
-    display:flex;
-
-  }
-
   .section-wrapper {
     display: flex;
     justify-content: center;
@@ -185,17 +159,7 @@
   
   
   @media (max-width: 768px) {
-  .animated {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .bx {
-    width: 90%; /* fill most of the screen */
-    height: 180px; /* slightly shorter height */
-  }
-
+  
   .section1 {
     height: auto; /* let it adjust based on content */
   }

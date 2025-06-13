@@ -23,14 +23,6 @@ function Home() {
              <Service />
         </div>
         
-
-<div className="animated">
-      <div className="bx">Graphics Design</div>
-      <div className="bx">Web Application</div>
-      <div className="bx">Digital Marketing</div>
-      <div className="bx">Business Inteligence</div>
-      <div className="bx">Social media manager</div>
-    </div>
     <div className="section2">
       <h2>Make Big Appearance of Your Business.</h2>
       <p>Our team is assembled in a manner that we have expert’s who do work together to make big appearance of your business</p>
