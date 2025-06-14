@@ -77,9 +77,9 @@ function Designing() {
         </div>
       </div>
       <div className='why-us'>
+              <h2> Industries we serve </h2>
               <h2> What we Design <br></br> Great Design Build Better Get Success</h2>
-              <p>we at motowetech define client real need to get access to digital world</p>
-              <button> Tools We Use</button>
+              <p>we at motowetech define client real need to get access to digital world</p>             
               <div className="section-row">
         <div className="action-box">
         <div className="icon-grid">
