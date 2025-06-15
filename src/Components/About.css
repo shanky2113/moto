@@ -75,7 +75,7 @@
 /* 🌐 Large tablets & small desktops (max-width: 1024px) */
 @media (max-width: 1024px) {
   .container {
-    padding: 0 24px;
+    /* padding: 0 24px; */
   }
 
   .industry-card {
