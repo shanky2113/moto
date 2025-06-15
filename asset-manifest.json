@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/moto/static/css/main.a22f921a.css",
+    "main.css": "/moto/static/css/main.bbdc0ba8.css",
     "main.js": "/moto/static/js/main.a6a6f8ba.js",
     "static/js/453.9b9e1a40.chunk.js": "/moto/static/js/453.9b9e1a40.chunk.js",
     "static/media/wa.png": "/moto/static/media/wa.ca1bcc84fb9181877923.png",
@@ -20,12 +20,12 @@
     "static/media/logo3.svg": "/moto/static/media/logo3.d42e60c4655af5aa02c5367d68ddafa1.svg",
     "index.html": "/moto/index.html",
     "static/media/logo5.svg": "/moto/static/media/logo5.c10daee19031ea6063f9722c7543e7f1.svg",
-    "main.a22f921a.css.map": "/moto/static/css/main.a22f921a.css.map",
+    "main.bbdc0ba8.css.map": "/moto/static/css/main.bbdc0ba8.css.map",
     "main.a6a6f8ba.js.map": "/moto/static/js/main.a6a6f8ba.js.map",
     "453.9b9e1a40.chunk.js.map": "/moto/static/js/453.9b9e1a40.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a22f921a.css",
+    "static/css/main.bbdc0ba8.css",
     "static/js/main.a6a6f8ba.js"
   ]
 }
