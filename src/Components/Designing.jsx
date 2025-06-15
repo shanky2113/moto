@@ -11,7 +11,7 @@ import logo2 from '../Assets/logos/logo2.svg';
 import logo3 from '../Assets/logos/logo3.svg';
 import logo4 from '../Assets/logos/logo4.svg';
 import logo5 from '../Assets/logos/logo5.svg';
-
+import About from '../Components/About.jsx';
 const logos = [logo1, logo2, logo3, logo4, logo5];
 
 const icons = [
@@ -103,6 +103,7 @@ function Designing() {
         </div>
       </div>
               </div>
+              <About />
       
     </>
   );
