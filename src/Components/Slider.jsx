@@ -13,7 +13,7 @@ const slides = [
     heading: 'Development',
     description: 'Developing web based applications using the required technologies. Our team are proffesional in working',
     image: Image1,
-    background: 'linear-gradient(135deg,rgba(14, 179, 255, 0),rgba(0, 200, 255, 0.21))',
+    // background: 'linear-gradient(135deg,rgba(14, 179, 255, 0),rgba(0, 200, 255, 0.21))',
     buttonText: 'Contact Us',
     buttonLink: '#contact',
   },

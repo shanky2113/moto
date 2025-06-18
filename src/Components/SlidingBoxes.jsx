@@ -43,7 +43,7 @@ const SlidingBoxes = () => {
   ];
 
   return (
-    <div className="slider-container">
+    <div className="slidingbox-container">
       <div className="slider">
         {boxes.map((box) => (
           <div key={box.id} className="box" style={{ backgroundColor: box.bgColor }}>
