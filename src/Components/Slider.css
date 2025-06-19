@@ -59,6 +59,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    max-height: fit-content;
   }
   
   .slider-right img {

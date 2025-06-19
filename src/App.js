@@ -4,6 +4,7 @@ import Home from './Components/Home.jsx';
 import About from './Components/About.jsx';
 import Product from './Components/Product.jsx';
 import Designing from './Components/Designing.jsx';
+import Marketing from './Components/Marketing.jsx';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Slider from './Components/Slider.jsx';
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Product" element={<Product />} />
         <Route path="/Designing" element={<Designing />} />
+        <Route path="/Marketing" element={<Marketing />} />
         
       </Routes>
     </Router>
